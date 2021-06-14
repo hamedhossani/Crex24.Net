@@ -1,6 +1,6 @@
 Crex24.Net  
 This is forked from 
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/JKorf/CoinEx.Net/blob/master/CoinEx.Net/Icon/icon.png?raw=true"><img src="https://github.com/JKorf/CoinEx.Net/raw/master/CoinEx.Net/Icon/icon.png?raw=true" alt="Icon" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/JKorf/CoinEx.Net"><img src="https://github.com/JKorf/CoinEx.Net/raw/master/CoinEx.Net/Icon/icon.png?raw=true" alt="Icon" style="max-width:100%;"></a>
 CoinEx.Net Version 3.2.6 - 04 mei 2021
  
 A .Net wrapper for the Crex24 API as described on [Crex24](https://docs.crex24.com/trade-api/v2/), including all features the API provides using clear and readable objects.  
@@ -24,6 +24,6 @@ A Discord server is available [here](https://discord.gg/MSpeEtSY8t). For discuss
 To get started with Crex24.Net first you will need to get the library itself. 
 
 ## Getting started
-After installing it's time to actually use it. To get started you have to add the CoinEx.Net namespace: `using CoinEx.Net;`.
+After Downloaded it's time to actually use it. To get started you have to add the Crex24.Net namespace: `using Crex24.Net;`.
 
-CoinEx.Net provides two clients to interact with the CoinEx API. The  `CoinExClient`  provides all rest API calls. The `CoinExSocketClient` provides functions to interact with the websocket provided by the CoinEx API. Both clients are disposable and as such can be used in a `using` statement.
+Crex24.Net provides two clients to interact with the Crex24 API. The  `Crex24Client`  provides all rest API calls. The `Crex24SocketClient` provides functions to interact with the websocket provided by the Crex24 API. Both clients are disposable and as such can be used in a `using` statement.
